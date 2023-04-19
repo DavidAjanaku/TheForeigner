@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/styles/about.css">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/news.css">
+</head>
+<body>
+  <nav class="header">
+    <a href="" class="main_logo">The Foreigners</a>
+    <ul class="nav">
+        <li><a href="#banner">HOME</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="register.html">REGISTER</a></li>
+        <li><a href="tickets.html">EVENTS</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+    </ul>
+  </nav>
+    <style>
+        header{
+          background: linear-gradient(rgba(0, 0, 0, 0.5), #0f0f0f7d),url('https://media.gq-magazine.co.uk/photos/5de8deee64857c0008aaafe7/16:9/pass/DAVIDO_FRANKFIEBER_20231022_8-sm-scaled.jpg');
+          height: 70vh;
+          width:100%;
+          background-size: cover;
+          background-position: center;
+        }
+  
+        .showcase {
+          width: 80%;
+          margin: 100px auto;
+        }
+  
+        .showcase h1{
+          text-align: center;
+        }
+  
+      
+  
+        .text-aligns{
+          text-align: center;
+          padding: 200px 0;
+          font-size: 4rem;
+          font-weight: 600;
+          color: #fff;
+        }
+
+        .sub_p{
+          position: absolute;
+          top: 0;
+          color: #fff;
+          font-size: 14px;
+          padding: 20px;
+        }
+
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: 1px solid #087f5b;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
+
+.page-link:link,
+.page-link:visited {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 18px;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link:hover,
+.page-link:active,
+.page-link.page-link--current {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.dots {
+  color: #868e96;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+      </style>
+      <header>
+        <h1 class="text-aligns  color">Davido
+
+        </h1>
+        <h1 class="sub_p"> Artists of the Week</h1>
+  
+  
+        <div id="sideNav">
+          <nav>
+              <ul>
+                  <li><a href="../index.html">HOME</a></li>
+                  <li><a href="news.html">NEWS</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="register.html">REGISTER</a></li>
+                  <li><a href="tickets.html">EVENTS</a></li>
+              </ul>
+          </nav>
+      </div>
+      <div id="menuBtn">
+          <img src="https://i.postimg.cc/j5RRCtb2/menu.png" id="menu">
+      </div>
+      </header>
+  
+
+    <section class="post-feed section">
+        <div class="section_inner">
+          <div class="section__main">
+            <!-- <div class="teaser-list_header">
+              <ul class="tab-scroll">
+                <li class="active tab-scroll__item">
+                  ALL
+                </li>
+                <li class="active tab-scroll__item">
+                  Event
+                </li>
+                <li class="active tab-scroll__item">
+                  Music
+                </li>
+                <li class="active tab-scroll__item">
+                  Fashion
+                </li>
+              </ul>
+            </div> -->
+
+            <form>
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+              </form>
+              
+    
+            <div class="content-wrapper">
+      
+              <div class="news-card">
+                <a href="artiste.html" class="news-card__card-link"></a>
+                <img src="https://assets.capitalfm.com/2022/43/ed-sheeran--1666953393-editorial-short-form-0.jpg" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Ed Sheeran</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="news-card">
+                <a href="#" class="news-card__card-link"></a>
+                <img src="https://s1.ticketm.net/dam/a/091/79aece6d-f029-4c50-ac8b-eae50eca6091_SOURCE" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Elton John</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam obcaecati ex natus nulla rem sequi laborum quod fugit&hellip;</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="news-card">
+                <a href="#" class="news-card__card-link"></a>
+                <img src="https://dailypost.ng/wp-content/uploads/2020/10/Burna-Boy-scaled.jpg" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Burna Boy</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae&hellip;</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="news-card">
+                <a href="#" class="news-card__card-link"></a>
+                <img src="https://parade.com/.image/t_share/MTk1NzYyNTQ0MDA5ODE2MDU4/best-adele-songs.jpg" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Adele</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet!</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="news-card">
+                <a href="#" class="news-card__card-link"></a>
+                <img src="https://guardian.ng/wp-content/uploads/2022/03/Rema-1-1424x802.jpg" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Rema</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="news-card">
+                <a href="#" class="news-card__card-link"></a>
+                <img src="https://mn2s-content.s3.eu-west-2.amazonaws.com/wp-content/uploads/2019/09/17175534/WizKid-mn2s.png" alt="" class="news-card__image">
+                <div class="news-card__text-wrapper">
+                  <h2 class="news-card__title">Wizkid</h2>
+                  <div class="news-card__post-date">Jan 29, 2023</div>
+                  <div class="news-card__details-wrapper">
+                    <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia.</p>
+                    <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+            <button class="btn">
+              <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   class="btn-icon"
+                   fill="none"
+                   viewBox="0 0 24 24"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   >
+                <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 19l-7-7 7-7"
+                      />
+              </svg>
+            </button>
+            <a href="#" class="page-link">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link page-link--current">3</a>
+            <a href="#" class="page-link">4</a>
+            <a href="#" class="page-link">5</a>
+            <a href="#" class="page-link">6</a>
+            <span class="dots">...</span>
+            <a href="#" class="page-link">23</a>
+            <button class="btn">
+              <svg
+                   xmlns="http://www.w3.org/2000/svg"
+                   class="btn-icon"
+                   fill="none"
+                   viewBox="0 0 24 24"
+                   stroke="currentColor"
+                   stroke-width="2"
+                   >
+                <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M9 5l7 7-7 7"
+                      />
+              </svg>
+            </button>
+          </div>
+      </section>
+
+      <footer class="footer"  style="margin-top: 0;">
+        <div class="footer-left col-md-4 col-sm-6">
+          <p class="about">
+            <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
+            ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+          </p>
+          <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span> Street name and number</span> City, Country</p>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <p> (+00) 0000 000 000</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#"> office@company.com</a></p>
+          </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+          <h2> Company<span> logo</span></h2>
+          <p class="menu">
+            <a href="#"> Home</a> |
+            <a href="#"> About</a> |
+            <a href="#"> Services</a> |
+            <a href="#"> Portfolio</a> |
+            <a href="#"> News</a> |
+            <a href="#"> Contact</a>
+          </p>
+          <p class="name"> Company Name &copy; 2023</p>
+        </div>
+      </footer>
+
+      <script>
+        var menuBtn = document.getElementById("menuBtn")
+  var sideNav = document.getElementById("sideNav")
+  var menu = document.getElementById("menu")
+  sideNav.style.right == "-250px";
+  menuBtn.onclick = function() {
+      if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+          menu.src = "https://i.postimg.cc/cJRss6PP/close.png";
+      } else {
+          sideNav.style.right = "-250px";
+          menu.src = "https://i.postimg.cc/j5RRCtb2/menu.png";
+      }
+  }
+  
+  $(document).ready(function() {
+  
+      $("a").on('click', function(event) {
+  
+          if (this.hash !== "") {
+  
+              event.preventDefault();
+              var hash = this.hash;
+  
+              $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+              }, 800, function() {
+                  window.location.hash = hash;
+              });
+          }
+      });
+  });
+  </script>
+
+  <script src="../script/observer.js"></script>
+</body>
+</html>
